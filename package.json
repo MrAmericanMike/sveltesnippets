@@ -5,6 +5,9 @@
 	"version": "0.0.1",
 	"license": "MIT",
 	"publisher": "MrAmericanMike",
+	"author": {
+		"name": "MrAmericanMike"
+	},
 	"icon": "icons/logo.png",
 	"repository": {
 		"type": "git",
