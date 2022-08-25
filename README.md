@@ -1,65 +1,46 @@
-# Svelte Snippets README
+# Svelte Snippets
 
-This is the README for your extension "Svelte Snippets". After writing up a brief description, we recommend including the following sections.
+This Extension adds snippers for Svelte.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Snippets for `script`, `markup` and `css` sections.
 
-For example if there is an image subfolder under your extension project workspace:
+Example:
 
-\!\[feature X\]\(images/feature-x.png\)
+`$if` will expand to:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+```html
+{#if condition}
+	<!-- content -->
+{/if}
+```
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+`$eachindexkey` will expand to:
+```html
+{#each items as item, index (key)}
+	<!-- content -->
+{/each}
+```
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of Svelte Snippets by MrAmericanMike
 
 ---
 
-## Working with Markdown
+## Requests - Ideas
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Do you have a request or idea for the extension. Please post it on our [Discussion Board](https://github.com/MrAmericanMike/sveltesnippets/discussions) on GitHub
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
 
-## For more information
+## Pending features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Determine if it's possible for a snippets extension to have a configuration option and use it so the final user can decide if they want single or double quotes
+
+---
 
 **Enjoy!**
