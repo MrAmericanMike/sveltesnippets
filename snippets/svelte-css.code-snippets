@@ -1,0 +1,11 @@
+{
+	"Svelte Global": {
+		"prefix": "$svelte",
+		"body": [
+			":global(${1}) {",
+			"\t${2}",
+			"}"
+		],
+		"description": "Svelte Global"
+	}
+}

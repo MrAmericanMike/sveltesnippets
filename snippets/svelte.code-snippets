@@ -1,0 +1,119 @@
+{
+	"Svelte Template": {
+		"prefix": "$svelte",
+		"body": [
+			"<script>",
+			"\t${1:// Code}",
+			"</script>",
+			"",
+			"${2:<!-- Markup -->}",
+			"",
+			"<style>",
+			"\t${3:/* CSS */}",
+			"</style>"
+		],
+		"description": "Svelte Template"
+	},
+	"Svelte if block": {
+		"prefix": "$if",
+		"body": [
+			"{#if ${1:condition}}",
+			"\t${2:<!-- content -->}",
+			"{/if}"
+		],
+		"description": "Svelte if block"
+	},
+	"Svelte if-else block": {
+		"prefix": "$ifelse",
+		"body": [
+			"{#if ${1:condition}}",
+			"\t${2:<!-- content -->}",
+			"{:else}",
+			"\t${3:<!-- content -->}",
+			"{/if}"
+		],
+		"description": "Svelte if-else block"
+	},
+	"Svelte if-else if block": {
+		"prefix": "$ifelseif",
+		"body": [
+			"{#if ${1:condition}}",
+			"\t${2:<!-- content -->}",
+			"{:else if ${3:condition}}",
+			"\t${4:<!-- content -->}",
+			"{:else}",
+			"\t${5:<!-- content -->}",
+			"{/if}"
+		],
+		"description": "Svelte if-else if block"
+	},
+	"Svelte each as block": {
+		"prefix": "$each",
+		"body": [
+			"{#each ${1:items} as ${2:item}}",
+			"\t${3:<!-- content -->}",
+			"{/each}"
+		],
+		"description": "Svelte each as block"
+	},
+	"Svelte each as, index block": {
+		"prefix": "$eachindex",
+		"body": [
+			"{#each ${1:items} as ${2:item}, index}",
+			"\t${3:<!-- content -->}",
+			"{/each}"
+		],
+		"description": "Svelte each as, index block"
+	},
+	"Svelte each as (key) block": {
+		"prefix": "$eachkey",
+		"body": [
+			"{#each ${1:items} as ${2:item} (${3:key})}",
+			"\t${4:<!-- content -->}",
+			"{/each}"
+		],
+		"description": "Svelte each as (key) block"
+	},
+	"Svelte each as, index (key) block": {
+		"prefix": "$eachindexkey",
+		"body": [
+			"{#each ${1:items} as ${2:item}, index (${3:key})}",
+			"\t${4:<!-- content -->}",
+			"{/each}"
+		],
+		"description": "Svelte each as, index (key) block"
+	},
+	"Svelte await block": {
+		"prefix": "$await",
+		"body": [
+			"{#await ${1:promise}}",
+			"\t${2:<!-- waiting -->}",
+			"{:then ${3:value}}",
+			"\t${4:<!-- value -->}",
+			"{:catch ${5:error}}",
+			"\t${6:<!-- error -->}",
+			"{/await}"
+		],
+		"description": "Svelte await block"
+	},
+	"Svelte await then block": {
+		"prefix": "$awaitthen",
+		"body": [
+			"{#await ${1:promise} then ${2:value}}",
+			"\t${3:<!-- value -->}",
+			"{:catch ${4:error}}",
+			"\t${5:<!-- error -->}",
+			"{/await}"
+		],
+		"description": "Svelte await then block"
+	},
+	"Svelte key block": {
+		"prefix": "$key",
+		"body": [
+			"{#key ${1:value}}",
+			"\t${2}",
+			"{/key}"
+		],
+		"description": "Svelte key block"
+	}
+}

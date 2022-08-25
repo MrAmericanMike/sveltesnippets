@@ -1,0 +1,59 @@
+{
+	"name": "sveltesnippets",
+	"displayName": "Svelte Snippets",
+	"description": "Svelte Snippets",
+	"version": "0.0.1",
+	"license": "MIT",
+	"publisher": "MrAmericanMike",
+	"icon": "icons/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MrAmericanMike/sveltesnippets.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MrAmericanMike/sveltesnippets/issues"
+	},
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"svelte",
+		"snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "svelte",
+				"aliases": [
+					"Svelte",
+					"Svelte 3",
+					"svelte"
+				],
+				"filenamePatterns": [
+					"*.svelte"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "svelte",
+				"path": "./snippets/svelte.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/svelte-javascript.code-snippets"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/svelte-css.code-snippets"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/svelte.code-snippets"
+			}
+		]
+	}
+}

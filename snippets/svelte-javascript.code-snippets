@@ -1,0 +1,120 @@
+{
+	"Svelte Import": {
+		"prefix": "$import",
+		"body": "import { ${1} } from \"svelte\";",
+		"description": "Svelte Import"
+	},
+	"Svelte Transition Import": {
+		"prefix": "$transition",
+		"body": "import { ${1} } from \"svelte/transition\";",
+		"description": "Svelte Transition Import"
+	},
+	"Svelte Animate Import": {
+		"prefix": "$animate",
+		"body": "import { ${1} } from \"svelte/animate\";",
+		"description": "Svelte Animate Import"
+	},
+	"Svelte Easing Import": {
+		"prefix": "$easing",
+		"body": "import { ${1} } from \"svelte/easing\";",
+		"description": "Svelte Easing Import"
+	},
+	"Svelte Motion Import": {
+		"prefix": "$motion",
+		"body": "import { ${1} } from \"svelte/motion\";",
+		"description": "Svelte Motion Import"
+	},
+	"Svelte Store Import": {
+		"prefix": "$store",
+		"body": "import { ${1} } from \"svelte/store\";",
+		"description": "Svelte Store Import"
+	},
+	"Svelte Internal Import": {
+		"prefix": "$intenal",
+		"body": "import { ${1} } from \"svelte/intenal\";",
+		"description": "Svelte Internal Import"
+	},
+	"Svelte Reactive": {
+		"prefix": "$$",
+		"body": "$: ${1} = ${2};",
+		"description": "Svelte Reactive"
+	},
+	"Svelte Reactive if": {
+		"prefix": "$$if",
+		"body": [
+			"$: if (${1:condition}) {",
+			"\t${2}",
+			"}"
+		],
+		"description": "Svelte Reactive if"
+	},
+	"Svelte Reactive block": {
+		"prefix": "$$block",
+		"body": [
+			"$: {",
+			"\t${1}",
+			"}"
+		],
+		"description": "Svelte Reactive block"
+	},
+	"Svelte onMount": {
+		"prefix": "$onmount",
+		"body": [
+			"onMount(() => {",
+			"\t${1}",
+			"});"
+		],
+		"description": "Svelte onMount"
+	},
+	"Svelte onDestroy": {
+		"prefix": "$ondestroy",
+		"body": [
+			"onDestroy(() => {",
+			"\t${1}",
+			"});"
+		],
+		"description": "Svelte onDestroy"
+	},
+	"Svelte beforeUpdate": {
+		"prefix": "$beforeupdate",
+		"body": [
+			"beforeUpdate(() => {",
+			"\t${1}",
+			"});"
+		],
+		"description": "Svelte beforeUpdate"
+	},
+	"Svelte afterUpdate": {
+		"prefix": "$afterupdate",
+		"body": [
+			"afterUpdate(() => {",
+			"\t${1}",
+			"});"
+		],
+		"description": "Svelte afterUpdate"
+	},
+	"Svelte writable": {
+		"prefix": "$writable",
+		"body": [
+			"import { writable } from \"svelte/store\";",
+			"",
+			"export const ${1} = writable(${2});"
+		],
+		"description": "Svelte writable"
+	},
+	"Svelte readable": {
+		"prefix": "$readable",
+		"body": [
+			"import { readable } from \"svelte/store\";",
+			"",
+			"export const ${1} = readable(${2}, function start(set) {",
+			"\t${3}",
+			"",
+			"\treturn function stop() {",
+			"\t\t${4}",
+			"\t};",
+			"});"
+		],
+		"description": "Svelte readable"
+	}
+}
