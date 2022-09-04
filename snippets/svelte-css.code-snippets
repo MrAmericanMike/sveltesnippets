@@ -1,6 +1,6 @@
 {
 	"Svelte Global": {
-		"prefix": "$svelte",
+		"prefix": "$global",
 		"body": [
 			":global(${1}) {",
 			"\t${2}",

@@ -1,6 +1,6 @@
 # Svelte Snippets
 
-This Extension adds snippers for Svelte.
+This Extension adds snippets for Svelte.
 
 ## Features
 
@@ -17,13 +17,26 @@ Example:
 ```
 
 `$eachindexkey` will expand to:
+
 ```html
 {#each items as item, index (key)}
 	<!-- content -->
 {/each}
 ```
 
+`$global` will expand to:
+
+```html
+:global() {
+	
+ }
+```
+
 ## Release Notes
+
+### 0.0.2
+
+Renamed `$svelte` to `$global` for the CSS `global` snippet
 
 ### 0.0.1
 
