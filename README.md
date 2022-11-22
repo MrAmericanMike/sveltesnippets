@@ -12,7 +12,7 @@ Example:
 
 ```html
 {#if condition}
-	<!-- content -->
+<!-- content -->
 {/if}
 ```
 
@@ -20,19 +20,25 @@ Example:
 
 ```html
 {#each items as item, index (key)}
-	<!-- content -->
+<!-- content -->
 {/each}
 ```
 
 `$global` will expand to:
 
 ```html
-:global() {
-	
- }
+:global() { }
 ```
 
+**Many other snippets like:**
+
+`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`
+
 ## Release Notes
+
+### 0.0.3
+
+Updated documentation. Added `$html`, `$on`
 
 ### 0.0.2
 
@@ -57,3 +63,4 @@ Determine if it's possible for a snippets extension to have a configuration opti
 ---
 
 **Enjoy!**
+

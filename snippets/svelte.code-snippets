@@ -115,5 +115,19 @@
 			"{/key}"
 		],
 		"description": "Svelte key block"
+	},
+	"Svelte HTML tag": {
+		"prefix": "$html",
+		"body": [
+			"{@html ${1:content}}"
+		],
+		"description": "Svelte HTML tag"
+	},
+	"Svelte on event": {
+		"prefix": "$on",
+		"body": [
+			"on:${1:event}={${2:action}}"
+		],
+		"description": "Svelte on event"
 	}
 }
