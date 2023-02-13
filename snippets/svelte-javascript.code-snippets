@@ -30,8 +30,8 @@
 		"description": "Svelte Store Import"
 	},
 	"Svelte Internal Import": {
-		"prefix": "$intenal",
-		"body": "import { ${1} } from \"svelte/intenal\";",
+		"prefix": "$internal",
+		"body": "import { ${1} } from \"svelte/internal\";",
 		"description": "Svelte Internal Import"
 	},
 	"Svelte Reactive": {

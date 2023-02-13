@@ -2,20 +2,13 @@
 	"name": "sveltesnippets",
 	"displayName": "Svelte Snippets",
 	"description": "Svelte Snippets",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"license": "MIT",
 	"publisher": "MrAmericanMike",
 	"author": {
 		"name": "MrAmericanMike"
 	},
 	"icon": "icons/logo.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MrAmericanMike/sveltesnippets.git"
-	},
-	"bugs": {
-		"url": "https://github.com/MrAmericanMike/sveltesnippets/issues"
-	},
 	"engines": {
 		"vscode": "^1.70.0"
 	},
@@ -26,6 +19,13 @@
 		"svelte",
 		"snippets"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MrAmericanMike/sveltesnippets.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MrAmericanMike/sveltesnippets/issues"
+	},
 	"contributes": {
 		"languages": [
 			{
@@ -60,3 +60,4 @@
 		]
 	}
 }
+

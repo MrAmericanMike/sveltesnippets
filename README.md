@@ -36,6 +36,10 @@ Example:
 
 ## Release Notes
 
+### 0.0.4
+
+Fixed `$internal`
+
 ### 0.0.3
 
 Updated documentation. Added `$html`, `$on`
