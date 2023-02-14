@@ -36,6 +36,10 @@ Example:
 
 ## Release Notes
 
+### 0.0.5
+
+Snippets should work when working with Typescript
+
 ### 0.0.4
 
 Fixed `$internal`

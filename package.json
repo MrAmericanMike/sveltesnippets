@@ -2,7 +2,7 @@
 	"name": "sveltesnippets",
 	"displayName": "Svelte Snippets",
 	"description": "Svelte Snippets",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"license": "MIT",
 	"publisher": "MrAmericanMike",
 	"author": {
@@ -47,6 +47,10 @@
 			},
 			{
 				"language": "javascript",
+				"path": "./snippets/svelte-javascript.code-snippets"
+			},
+			{
+				"language": "typescript",
 				"path": "./snippets/svelte-javascript.code-snippets"
 			},
 			{

@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.5]
+
+-   Snippets should work when working with Typescript
+
 ## [0.0.4]
 
 -   Fixed `$intenal` to be `$internal` and correctly be and import `svelte/internal`
