@@ -59,8 +59,8 @@
 	"Svelte each as, index block": {
 		"prefix": "$eachindex",
 		"body": [
-			"{#each ${1:items} as ${2:item}, index}",
-			"\t${3:<!-- content -->}",
+			"{#each ${1:items} as ${2:item}, ${3:index}}",
+			"\t${4:<!-- content -->}",
 			"{/each}"
 		],
 		"description": "Svelte each as, index block"
@@ -77,8 +77,8 @@
 	"Svelte each as, index (key) block": {
 		"prefix": "$eachindexkey",
 		"body": [
-			"{#each ${1:items} as ${2:item}, index (${3:key})}",
-			"\t${4:<!-- content -->}",
+			"{#each ${1:items} as ${2:item}, ${3:index} (${4:key})}",
+			"\t${5:<!-- content -->}",
 			"{/each}"
 		],
 		"description": "Svelte each as, index (key) block"
