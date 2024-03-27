@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.7]
+
+-   Added Svelte 5 snippets for runes like $state, $derived, $props, $bindable, $effect, $effectpre, $derived, $derivedby and also $snippet, $render and $runes
+
 ## [0.0.6]
 
 -   Fixed `$eachindex` and `$eachindexkey`

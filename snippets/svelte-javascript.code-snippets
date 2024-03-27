@@ -116,5 +116,57 @@
 			"});"
 		],
 		"description": "Svelte readable"
+	},
+	"Svelte state": {
+		"prefix": "$state",
+		"body": "let ${1} = $$state(${2});",
+		"description": "Svelte state"
+	},
+	"Svelte derived": {
+		"prefix": "$derived",
+		"body": "let ${1} = $$derived(${2});",
+		"description": "Svelte derived"
+	},
+	"Svelte derived by": {
+		"prefix": "$derivedby",
+		"body": [
+			"let ${1} = $$derived.by(() => {",
+			"\t${2}",
+			"});",
+		],
+		"description": "Svelte derived by"
+	},
+	"Svelte effect": {
+		"prefix": "$effect",
+		"body": [
+			"$$effect(() => {",
+			"\t${1}",
+			"});",
+		],
+		"description": "Svelte effect"
+	},
+	"Svelte effect pre": {
+		"prefix": "$effectpre",
+		"body": [
+			"$$effect.pre(() => {",
+			"\t${1}",
+			"});",
+		],
+		"description": "Svelte effect pre"
+	},
+	"Svelte props": {
+		"prefix": "$props",
+		"body": "let { ${1} } = $$props();",
+		"description": "Svelte props"
+	},
+	"Svelte bindable": {
+		"prefix": "$bindable",
+		"body": "let { ${1} = $$bindable(${2}) } = $$props();",
+		"description": "Svelte props"
+	},
+	"Svelte inspect": {
+		"prefix": "$inspect",
+		"body": "$$inspect(${1});",
+		"description": "Svelte inspect"
 	}
 }

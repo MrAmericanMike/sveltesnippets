@@ -2,7 +2,7 @@
 	"name": "sveltesnippets",
 	"displayName": "Svelte Snippets",
 	"description": "Svelte Snippets",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"license": "MIT",
 	"publisher": "MrAmericanMike",
 	"author": {
@@ -33,6 +33,8 @@
 				"aliases": [
 					"Svelte",
 					"Svelte 3",
+					"Svelte 4",
+					"Svelte 5",
 					"svelte"
 				],
 				"filenamePatterns": [
@@ -64,4 +66,3 @@
 		]
 	}
 }
-

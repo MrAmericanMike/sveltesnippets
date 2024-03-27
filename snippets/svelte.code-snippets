@@ -129,5 +129,24 @@
 			"on:${1:event}={${2:action}}"
 		],
 		"description": "Svelte on event"
+	},
+	"Svelte snippet": {
+		"prefix": "$snippet",
+		"body": [
+			"{#snippet ${1}}",
+			"\t${2}",
+			"{/snippet}",
+		],
+		"description": "Svelte snippet"
+	},
+	"Svelte render": {
+		"prefix": "$render",
+		"body": "{@render ${1}}",
+		"description": "Svelte render"
+	},
+	"Svelte runes": {
+		"prefix": "$runes",
+		"body": "<svelte:options runes={true} />",
+		"description": "Svelte runes"
 	}
 }

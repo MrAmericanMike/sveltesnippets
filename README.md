@@ -32,9 +32,13 @@ Example:
 
 **Many other snippets like:**
 
-`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`
+`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`, `$state`, `$derived`, `$effect`, `$effectpre`, `$derived`, `$derivedby`, `$snippet`, `$render`, `$props`, `$bindable`, `$runes`
 
 ## Release Notes
+
+### 0.0.7
+
+Added Svelte 5 snippets for runes like $state, $derived, $props, $bindable, $effect, $effectpre, $derived, $derivedby and also $snippet, $render and $runes
 
 ### 0.0.6
 
