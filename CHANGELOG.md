@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.8]
+
+-   Added $component, $window, $body, $head, $debug, $html, $element, $class, $use, $self, $namespace, $accessors, $immutable, $action, $action-params, $action-params-update, $tick, $get-context, $set-context, $dispatch, $dispatch-event
+
 ## [0.0.7]
 
 -   Added Svelte 5 snippets for runes like $state, $derived, $props, $bindable, $effect, $effectpre, $derived, $derivedby and also $snippet, $render and $runes
