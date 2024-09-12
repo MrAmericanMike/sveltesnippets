@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.9]
+
+-   Fix on filenamePatterns for match only `*.svelte.js` and `*.svelte.ts` files instead of `*.js` and `*.ts` (Remains match on `*.svelte`)
+-   Scripts cleanup
+-   Added Changelog from 0.0.8 to README
+
 ## [0.0.8]
 
 -   Added $component, $window, $body, $head, $debug, $html, $element, $class, $use, $self, $namespace, $accessors, $immutable, $action, $action-params, $action-params-update, $tick, $get-context, $set-context, $dispatch, $dispatch-event

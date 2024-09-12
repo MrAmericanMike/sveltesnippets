@@ -2,56 +2,56 @@
 	"Svelte Import": {
 		"prefix": "$import",
 		"body": [
-			"import { ${1:} } from \"svelte\";"
+			"import { ${1} } from \"svelte\";"
 		],
 		"description": "Svelte Import"
 	},
 	"Svelte Transition Import": {
 		"prefix": "$transition",
 		"body": [
-			"import { ${1:} } from \"svelte/transition\";"
+			"import { ${1} } from \"svelte/transition\";"
 		],
 		"description": "Svelte Transition Import"
 	},
 	"Svelte Animate Import": {
 		"prefix": "$animate",
 		"body": [
-			"import { ${1:} } from \"svelte/animate\";"
+			"import { ${1} } from \"svelte/animate\";"
 		],
 		"description": "Svelte Animate Import"
 	},
 	"Svelte Easing Import": {
 		"prefix": "$easing",
 		"body": [
-			"import { ${1:} } from \"svelte/easing\";"
+			"import { ${1} } from \"svelte/easing\";"
 		],
 		"description": "Svelte Easing Import"
 	},
 	"Svelte Motion Import": {
 		"prefix": "$motion",
 		"body": [
-			"import { ${1:} } from \"svelte/motion\";"
+			"import { ${1} } from \"svelte/motion\";"
 		],
 		"description": "Svelte Motion Import"
 	},
 	"Svelte Store Import": {
 		"prefix": "$store",
 		"body": [
-			"import { ${1:} } from \"svelte/store\";"
+			"import { ${1} } from \"svelte/store\";"
 		],
 		"description": "Svelte Store Import"
 	},
 	"Svelte Internal Import": {
 		"prefix": "$internal",
 		"body": [
-			"import { ${1:} } from \"svelte/internal\";"
+			"import { ${1} } from \"svelte/internal\";"
 		],
 		"description": "Svelte Internal Import"
 	},
 	"Svelte Reactive": {
 		"prefix": "$$",
 		"body": [
-			"$: ${1:} = ${2:};"
+			"$: ${1} = ${2};"
 		],
 		"description": "Svelte Reactive"
 	},
@@ -59,7 +59,7 @@
 		"prefix": "$$if",
 		"body": [
 			"$: if (${1:condition}) {",
-			"\t${2:}",
+			"\t${2}",
 			"}"
 		],
 		"description": "Svelte Reactive if"
@@ -68,7 +68,7 @@
 		"prefix": "$$block",
 		"body": [
 			"$: {",
-			"\t${1:}",
+			"\t${1}",
 			"}"
 		],
 		"description": "Svelte Reactive block"
@@ -77,7 +77,7 @@
 		"prefix": "$onmount",
 		"body": [
 			"onMount(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});"
 		],
 		"description": "Svelte onMount"
@@ -86,7 +86,7 @@
 		"prefix": "$ondestroy",
 		"body": [
 			"onDestroy(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});"
 		],
 		"description": "Svelte onDestroy"
@@ -95,7 +95,7 @@
 		"prefix": "$beforeupdate",
 		"body": [
 			"beforeUpdate(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});"
 		],
 		"description": "Svelte beforeUpdate"
@@ -104,7 +104,7 @@
 		"prefix": "$afterupdate",
 		"body": [
 			"afterUpdate(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});"
 		],
 		"description": "Svelte afterUpdate"
@@ -114,7 +114,7 @@
 		"body": [
 			"import { writable } from \"svelte/store\";",
 			"",
-			"export const ${1:} = writable(${2:});"
+			"export const ${1} = writable(${2});"
 		],
 		"description": "Svelte writable"
 	},
@@ -123,11 +123,11 @@
 		"body": [
 			"import { readable } from \"svelte/store\";",
 			"",
-			"export const ${1:} = readable(${2:}, function start(set) {",
-			"\t${3:}",
+			"export const ${1} = readable(${2}, function start(set) {",
+			"\t${3}",
 			"",
 			"\treturn function stop() {",
-			"\t\t${4:}",
+			"\t\t${4}",
 			"\t};",
 			"});"
 		],
@@ -136,23 +136,22 @@
 	"Svelte state": {
 		"prefix": "$state",
 		"body": [
-			"let ${1:} = \\$state(${2:});"
+			"let ${1} = \\$state(${2});"
 		],
 		"description": "Svelte state"
-	}
-	,
+	},
 	"Svelte derived": {
 		"prefix": "$derived",
 		"body": [
-			"let ${1:} = \\$derived(${2:});"
+			"let ${1} = \\$derived(${2});"
 		],
 		"description": "Svelte derived"
 	},
 	"Svelte derived by": {
 		"prefix": "$derivedby",
 		"body": [
-			"let ${1:} = \\$derived.by(() => {",
-			"\t${2:}",
+			"let ${1} = \\$derived.by(() => {",
+			"\t${2}",
 			"});",
 		],
 		"description": "Svelte derived by"
@@ -161,7 +160,7 @@
 		"prefix": "$effect",
 		"body": [
 			"\\$effect(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});",
 		],
 		"description": "Svelte effect"
@@ -170,7 +169,7 @@
 		"prefix": "$effectpre",
 		"body": [
 			"\\$effect.pre(() => {",
-			"\t${1:}",
+			"\t${1}",
 			"});",
 		],
 		"description": "Svelte effect pre"
@@ -178,21 +177,21 @@
 	"Svelte props": {
 		"prefix": "$props",
 		"body": [
-			"let { ${1:} } = \\$props();"
+			"let { ${1} } = \\$props();"
 		],
 		"description": "Svelte props"
 	},
 	"Svelte bindable": {
 		"prefix": "$bindable",
 		"body": [
-			"let { ${1:} = \\$bindable(${2:}) } = \\$props();"
+			"let { ${1} = \\$bindable(${2}) } = \\$props();"
 		],
 		"description": "Svelte props"
 	},
 	"Svelte inspect": {
 		"prefix": "$inspect",
 		"body": [
-			"\\$inspect(${1:});"
+			"\\$inspect(${1});"
 		],
 		"description": "Svelte inspect"
 	},
@@ -202,7 +201,7 @@
 			"function ${1:foo}(node) {",
 			"\treturn {",
 			"\t\tdestroy() {",
-				"\t\t\t${2:}",
+			"\t\t\t${2}",
 			"\t\t}",
 			"\t};",
 			"}"
@@ -215,7 +214,7 @@
 			"function ${1:foo}(node, parameters) {",
 			"\treturn {",
 			"\t\tdestroy() {",
-				"\t\t\t${2:}",
+			"\t\t\t${2}",
 			"\t\t}",
 			"\t};",
 			"}"
@@ -228,10 +227,10 @@
 			"function ${1:foo}(node, parameters) {",
 			"\treturn {",
 			"\t\tupdate(parameters) {",
-				"\t\t\t${2:}",
+			"\t\t\t${2}",
 			"\t\t},",
 			"\t\tdestroy() {",
-				"\t\t\t${3:}",
+			"\t\t\t${3}",
 			"\t\t}",
 			"\t};",
 			"}"
@@ -248,14 +247,14 @@
 	"Svelte get context": {
 		"prefix": "$get-context",
 		"body": [
-			"getContext(${1:})"
+			"getContext(${1})"
 		],
 		"description": "Svelte get context"
 	},
 	"Svelte set context": {
 		"prefix": "$set-context",
 		"body": [
-			"setContext(${1:})"
+			"setContext(${1})"
 		],
 		"description": "Svelte set context"
 	},

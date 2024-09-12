@@ -111,7 +111,7 @@
 		"prefix": "$key",
 		"body": [
 			"{#key ${1:value}}",
-			"\t${2:}",
+			"\t${2}",
 			"{/key}"
 		],
 		"description": "Svelte key block"
@@ -133,8 +133,8 @@
 	"Svelte snippet": {
 		"prefix": "$snippet",
 		"body": [
-			"{#snippet ${1:}}",
-			"\t${2:}",
+			"{#snippet ${1}}",
+			"\t${2}",
 			"{/snippet}"
 		],
 		"description": "Svelte snippet"
@@ -142,28 +142,28 @@
 	"Svelte render": {
 		"prefix": "$render",
 		"body": [
-			"{@render ${1:}}"
+			"{@render ${1}}"
 		],
 		"description": "Svelte render"
 	},
 	"Svelte component": {
 		"prefix": "$component",
 		"body": [
-			"<svelte:component this={${1:}} />"
+			"<svelte:component this={${1}} />"
 		],
 		"description": "Svelte component"
 	},
 	"Svelte window": {
 		"prefix": "$window",
 		"body": [
-			"<svelte:window ${1:} />"
+			"<svelte:window ${1} />"
 		],
 		"description": "Svelte window"
 	},
 	"Svelte body": {
 		"prefix": "$body",
 		"body": [
-			"<svelte:body ${1:} />"
+			"<svelte:body ${1} />"
 		],
 		"description": "Svelte body"
 	},
@@ -179,35 +179,35 @@
 	"Svelte debug": {
 		"prefix": "$debug",
 		"body": [
-			"{@debug ${1:}}"
+			"{@debug ${1}}"
 		],
 		"description": "Svelte debug"
 	},
 	"Svelte class": {
 		"prefix": "$class",
 		"body": [
-			"class:${1:}={${2:}}"
+			"class:${1}={${2}}"
 		],
 		"description": "Svelte class"
 	},
 	"Svelte element": {
 		"prefix": "$elements",
 		"body": [
-			"<svelte:element this={${1:}}>${2:}</svelte:element>"
+			"<svelte:element this={${1}}>${2}</svelte:element>"
 		],
 		"description": "Svelte element"
 	},
 	"Svelte use": {
 		"prefix": "$use",
 		"body": [
-			"use:${1:}={${2:}}"
+			"use:${1}={${2}}"
 		],
 		"description": "Svelte use"
 	},
 	"Svelte self": {
 		"prefix": "$self",
 		"body": [
-			"<svelte:self ${1:} />"
+			"<svelte:self ${1} />"
 		],
 		"description": "Svelte self"
 	},
@@ -221,21 +221,21 @@
 	"Svelte immutable": {
 		"prefix": "$immutable",
 		"body": [
-			"<svelte:options immutable={${1:}} />"
+			"<svelte:options immutable={${1}} />"
 		],
 		"description": "Svelte immutable"
 	},
 	"Svelte accessors": {
 		"prefix": "$accessors",
 		"body": [
-			"<svelte:options accessors={${1:}} />"
+			"<svelte:options accessors={${1}} />"
 		],
 		"description": "Svelte accessors"
 	},
 	"Svelte namespace": {
 		"prefix": "$namespace",
 		"body": [
-			"<svelte:options namespace={${1:}} />"
+			"<svelte:options namespace={${1}} />"
 		],
 		"description": "Svelte namespace"
 	}

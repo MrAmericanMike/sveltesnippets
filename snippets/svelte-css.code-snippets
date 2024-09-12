@@ -2,8 +2,8 @@
 	"Svelte Global": {
 		"prefix": "$global",
 		"body": [
-			":global(${1:}) {",
-			"\t${2:}",
+			":global(${1}) {",
+			"\t${2}",
 			"}"
 		],
 		"description": "Svelte Global"
