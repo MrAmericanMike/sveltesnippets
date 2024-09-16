@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.0]
+
+-   Updated README format.
+-   Added `$sveltets`
+
 ## [0.0.9]
 
 -   Fix on filenamePatterns for match only `*.svelte.js` and `*.svelte.ts` files instead of `*.js` and `*.ts` (Remains match on `*.svelte`)
@@ -28,7 +33,8 @@
 
 ## [0.0.3]
 
--   Updated documentation
+-   Updated documentation.
+-   Added `$html`, `$on`
 
 ## [0.0.2]
 

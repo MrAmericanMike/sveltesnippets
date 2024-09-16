@@ -14,6 +14,21 @@
 		],
 		"description": "Svelte Template"
 	},
+	"Svelte Template (TS)": {
+		"prefix": "$sveltets",
+		"body": [
+			"<script lang=\"ts\">",
+			"\t${1:// Code}",
+			"</script>",
+			"",
+			"${2:<!-- Markup -->}",
+			"",
+			"<style>",
+			"\t${3:/* CSS */}",
+			"</style>"
+		],
+		"description": "Svelte Template (TS)"
+	},
 	"Svelte if block": {
 		"prefix": "$if",
 		"body": [
