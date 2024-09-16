@@ -253,5 +253,15 @@
 			"<svelte:options namespace={${1}} />"
 		],
 		"description": "Svelte namespace"
+	},
+	"Svelte Component Documentation": {
+		"prefix": "$doc",
+		"body": [
+			"<!--",
+			"@component",
+			"${1}",
+			"-->",
+		],
+		"description": "Svelte Component Documentation"
 	}
 }

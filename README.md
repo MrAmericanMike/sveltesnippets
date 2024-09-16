@@ -32,9 +32,13 @@ Example:
 
 **Many other snippets like:**
 
-`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`, `$state`, `$derived`, `$effect`, `$effectpre`, `$derived`, `$derivedby`, `$snippet`, `$render`, `$props`, `$bindable`, `$runes`, `$window`, `$body`, `$head`, `$debug`, `$html`, `$element`, `$class`, `$use`, `$self`, `$namespace`, `$accesors`, `$immutable`, `$action`, `$action-params`, `$action-params-update`, `$tick`, `$get-context`, `$set-context`, `$dispatch`, `$dispatch-event`, `$sveltets`
+`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`, `$state`, `$derived`, `$effect`, `$effectpre`, `$derived`, `$derivedby`, `$snippet`, `$render`, `$props`, `$bindable`, `$runes`, `$window`, `$body`, `$head`, `$debug`, `$html`, `$element`, `$class`, `$use`, `$self`, `$namespace`, `$accesors`, `$immutable`, `$action`, `$action-params`, `$action-params-update`, `$tick`, `$get-context`, `$set-context`, `$dispatch`, `$dispatch-event`, `$sveltets`, `$doc`
 
 ## Release Notes
+
+### 0.1.1
+
+-   Added `$doc`
 
 ### 0.1.0
 

@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.1]
+
+-   Added `$doc`
+
 ## [0.1.0]
 
 -   Updated README format.
