@@ -27,14 +27,20 @@ Example:
 `$global` will expand to:
 
 ```html
-:global() { }
+:global() {
+
+}
 ```
 
 **Many other snippets like:**
 
-`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`, `$state`, `$derived`, `$effect`, `$effectpre`, `$derived`, `$derivedby`, `$snippet`, `$render`, `$props`, `$bindable`, `$runes`, `$window`, `$body`, `$head`, `$debug`, `$html`, `$element`, `$class`, `$use`, `$self`, `$namespace`, `$accesors`, `$immutable`, `$action`, `$action-params`, `$action-params-update`, `$tick`, `$get-context`, `$set-context`, `$dispatch`, `$dispatch-event`, `$sveltets`, `$doc`
+`$ifelse`, `$each`, `$eachindex`, `$eachkey`, `$await`, `$awaitthen`, `$import`, `$transition`, `$animate`, `$easing`, `$motion`, `$store`, `$internal`, `$$if`, `$$block`, `$$`, `$onmount`, `$ondestroy`, `$beforeupdate`, `$afterupdate`, `$writable`, `$readable`, `$html`, `$state`, `$derived`, `$effect`, `$effectpre`, `$derived`, `$derivedby`, `$snippet`, `$render`, `$props`, `$bindable`, `$runes`, `$window`, `$body`, `$head`, `$debug`, `$html`, `$element`, `$class`, `$use`, `$self`, `$namespace`, `$accesors`, `$immutable`, `$action`, `$action-params`, `$action-params-update`, `$tick`, `$get-context`, `$set-context`, `$dispatch`, `$dispatch-event`, `$sveltets`, `$doc`, `$modifier`
 
 ## Release Notes
+
+### 0.1.2
+
+-   Added `$modifier`, `$get-store`
 
 ### 0.1.1
 

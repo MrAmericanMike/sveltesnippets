@@ -272,4 +272,11 @@
 		],
 		"description": "Svelte dispatch event"
 	},
+	"Svelte get store value": {
+		"prefix": "$get-store",
+		"body": [
+			"const ${1:} = get(${2:});"
+		],
+		"description": "Svelte get store value"
+	}
 }

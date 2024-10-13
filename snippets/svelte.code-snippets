@@ -263,5 +263,12 @@
 			"-->",
 		],
 		"description": "Svelte Component Documentation"
+	},
+	"Svelte Event Modifier": {
+		"prefix": "$modifier",
+		"body": [
+			"|${1|preventDefault,stopPropagation,passive,nonpassive,capture,once,self,trusted|"
+		],
+		"description": "Svelte Event Modifier"
 	}
 }

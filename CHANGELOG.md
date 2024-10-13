@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.2]
+
+-   Added `$modifier`, `$get-store`
+
 ## [0.1.1]
 
 -   Added `$doc`
