@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.3]
+
+-   Added `$snapshot`, `$inspectwith`, `$untrack`, `$stateraw`, `$useparams`, `$document`
+-   Fixed description for Svelte Bindable
+-   Capitalized Descriptions
+-   Fixed `$elements` to be called `$element`
+
 ## [0.1.2]
 
 -   Added `$modifier`, `$get-store`

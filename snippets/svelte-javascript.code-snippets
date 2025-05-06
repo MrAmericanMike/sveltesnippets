@@ -109,16 +109,16 @@
 		],
 		"description": "Svelte afterUpdate"
 	},
-	"Svelte writable": {
+	"Svelte Writable": {
 		"prefix": "$writable",
 		"body": [
 			"import { writable } from \"svelte/store\";",
 			"",
 			"export const ${1} = writable(${2});"
 		],
-		"description": "Svelte writable"
+		"description": "Svelte Writable"
 	},
-	"Svelte readable": {
+	"Svelte Readable": {
 		"prefix": "$readable",
 		"body": [
 			"import { readable } from \"svelte/store\";",
@@ -131,71 +131,85 @@
 			"\t};",
 			"});"
 		],
-		"description": "Svelte readable"
+		"description": "Svelte Readable"
 	},
-	"Svelte state": {
+	"Svelte State": {
 		"prefix": "$state",
 		"body": [
 			"let ${1} = \\$state(${2});"
 		],
-		"description": "Svelte state"
+		"description": "Svelte State"
 	},
-	"Svelte derived": {
+	"Svelte State Raw": {
+		"prefix": "$stateraw",
+		"body": [
+			"let ${1} = \\$state.raw(${2});"
+		],
+		"description": "Svelte State Raw"
+	},
+	"Svelte Derived": {
 		"prefix": "$derived",
 		"body": [
 			"let ${1} = \\$derived(${2});"
 		],
-		"description": "Svelte derived"
+		"description": "Svelte Derived"
 	},
-	"Svelte derived by": {
+	"Svelte Derived By": {
 		"prefix": "$derivedby",
 		"body": [
 			"let ${1} = \\$derived.by(() => {",
 			"\t${2}",
 			"});",
 		],
-		"description": "Svelte derived by"
+		"description": "Svelte Derived By"
 	},
-	"Svelte effect": {
+	"Svelte Effect": {
 		"prefix": "$effect",
 		"body": [
 			"\\$effect(() => {",
 			"\t${1}",
 			"});",
 		],
-		"description": "Svelte effect"
+		"description": "Svelte Effect"
 	},
-	"Svelte effect pre": {
+	"Svelte Effect Pre": {
 		"prefix": "$effectpre",
 		"body": [
 			"\\$effect.pre(() => {",
 			"\t${1}",
 			"});",
 		],
-		"description": "Svelte effect pre"
+		"description": "Svelte Effect Pre"
 	},
-	"Svelte props": {
+	"Svelte Props": {
 		"prefix": "$props",
 		"body": [
 			"let { ${1} } = \\$props();"
 		],
-		"description": "Svelte props"
+		"description": "Svelte Props"
 	},
-	"Svelte bindable": {
+	"Svelte Bindable": {
 		"prefix": "$bindable",
 		"body": [
 			"let { ${1} = \\$bindable(${2}) } = \\$props();"
 		],
-		"description": "Svelte props"
+		"description": "Svelte Bindable"
 	},
-	"Svelte inspect": {
+	"Svelte Inspect": {
 		"prefix": "$inspect",
 		"body": [
 			"\\$inspect(${1});"
 		],
-		"description": "Svelte inspect"
+		"description": "Svelte Inspect"
 	},
-	"Svelte action": {
+	"Svelte Inspect With": {
+		"prefix": "$inspectwith",
+		"body": [
+			"\\$inspect(${1}).with(${2});"
+		],
+		"description": "Svelte Inspect With"
+	},
+	"Svelte Action": {
 		"prefix": "$action",
 		"body": [
 			"function ${1:foo}(node) {",
@@ -206,9 +220,9 @@
 			"\t};",
 			"}"
 		],
-		"description": "Svelte action"
+		"description": "Svelte Action"
 	},
-	"Svelte action params": {
+	"Svelte Action Params": {
 		"prefix": "$action-params",
 		"body": [
 			"function ${1:foo}(node, parameters) {",
@@ -219,9 +233,9 @@
 			"\t};",
 			"}"
 		],
-		"description": "Svelte action params"
+		"description": "Svelte Action Params"
 	},
-	"Svelte action params update": {
+	"Svelte Action Params Update": {
 		"prefix": "$action-params-update",
 		"body": [
 			"function ${1:foo}(node, parameters) {",
@@ -235,48 +249,69 @@
 			"\t};",
 			"}"
 		],
-		"description": "Svelte action params update"
+		"description": "Svelte Action Params Update"
 	},
-	"Svelte tick": {
+	"Svelte Tick": {
 		"prefix": "$tick",
 		"body": [
 			"await tick();"
 		],
-		"description": "Svelte tick"
+		"description": "Svelte Tick"
 	},
-	"Svelte get context": {
+	"Svelte Get Context": {
 		"prefix": "$get-context",
 		"body": [
 			"getContext(${1})"
 		],
-		"description": "Svelte get context"
+		"description": "Svelte Get Context"
 	},
-	"Svelte set context": {
+	"Svelte Set Context": {
 		"prefix": "$set-context",
 		"body": [
 			"setContext(${1})"
 		],
-		"description": "Svelte set context"
+		"description": "Svelte Set Context"
 	},
-	"Svelte dispatch": {
+	"Svelte Dispatch": {
 		"prefix": "$dispacth",
 		"body": [
 			"const ${1:dispatch} = createEventDispatcher();"
 		],
-		"description": "Svelte dispatch"
+		"description": "Svelte Dispatch"
 	},
-	"Svelte dispatch event": {
+	"Svelte Dispatch Event": {
 		"prefix": "$dispacth-event",
 		"body": [
 			"dispatch(${1:key},${2:data});"
 		],
-		"description": "Svelte dispatch event"
+		"description": "Svelte Dispatch Event"
 	},
-	"Svelte get store value": {
+	"Svelte Get Store Value": {
 		"prefix": "$get-store",
 		"body": [
 			"const ${1:} = get(${2:});"
 		],
-		"description": "Svelte get store value"
+		"description": "Svelte Get Store Value"
+	},
+	"Svelte Snapshot": {
+		"prefix": "$snapshot",
+		"body": [
+			"\\$state.snapshot(${1});"
+		],
+		"description": "Svelte Snapshot"
+	},
+	"Svelte Untrack": {
+		"prefix": "$untrack",
+		"body": [
+			"untrack(${1})"
+		],
+		"description": "Svelte Untrack"
+	},
+	"Svelte Reactivity Import": {
+		"prefix": "$reactivity",
+		"body": [
+			"import { ${1} } from \"svelte/reactivity\";"
+		],
+		"description": "Svelte Reactivity Import"
 	}
 }
